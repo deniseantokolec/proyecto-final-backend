@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.boxdetail{
+    display:flex;
+    flex-direction:column;
+    height: 600px;
+    width: 100%;
+    padding: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+}
+
+.titulodetail{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Caveat';
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+    /*text-shadow: 1px 1px 2px rgb(55, 0, 254), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)*/
+;        
+}
+
+.descripciondetail{
+    font-family: 'Caveat';
+    font-size: 30px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+                        
+}
+
+.preciodetail{
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.imagendetail{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    align-content: center;
+    align-items: center;
+    margin-left: 34%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+
+}
+
+
+ItemCount{
+   text-align: center;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.verdetalle {
+    display: flex;
+    align-items: center;
+    object-position: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin-left: 35%;
+    border:0;
+    background-color: darksalmon;
+    color: white;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    text-decoration-line: none;
+    text-decoration: none;
+    
+    
+}
+
+Link{
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.verdetalle:hover{
+    color: black;
+}

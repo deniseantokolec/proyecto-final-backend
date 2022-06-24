@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+.cartwidget-box{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    
+}
+
+.cartwidget{
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-top: 20%;
+}
+
+.cartquantity{
+    font-family: 'Caveat';
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+}

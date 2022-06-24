@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.botonremover{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 25px;
+    font-weight: bold;
+    border: 0;
+    background-color: darksalmon;
+    width: 150px;
+    color: white;
+    margin-left: 30%;
+    
+}

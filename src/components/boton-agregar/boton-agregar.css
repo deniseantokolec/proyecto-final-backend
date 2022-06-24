@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.botones{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 45.5%;
+}
+
+.agregar{
+    display: flex;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darksalmon;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin-left: 2.5%;
+    border:0;
+    color: white;
+}
+
+.quitar{
+    display: flex;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darksalmon;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-right: 2.5%;
+    border: 0;
+    color: white;
+}
+
+.valor{
+    display: flex;
+    font-family: 'Caveat';
+    font-size: 25px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    font-weight: bold;
+    width: 30px;
+    color: black;
+}
+
+.botonagregar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 30px;
+    
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    border: 0;
+    background-color: darksalmon;
+    color: white;
+    width: 220px;
+}
+

@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.div-cart{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+}
+
+
+.div-cartcontainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulocart{
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25%;
+    margin-top: 2%;
+    /*text-shadow: 1px 1px 2px rgb(55, 0, 254), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);*/        
+
+}
+
+
+.div-datoscart{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0;
+}
+
+.titulo-actividad{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.titulo-cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.titulo-precio{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div-cartbotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:0;
+    margin-left: 28%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.eliminar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 5%;
+    font-family: 'Caveat';
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    background-color: darksalmon;
+
+}
+
+.eliminar:hover{
+    color: black;
+}
+
+.div-error{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.sinseleccion{
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 2%;
+    margin-top: 2%;
+    /*text-shadow: 1px 1px 2px rgb(55, 0, 254), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);*/
+}
+
+.vovlerainicio{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:darksalmon;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  
+}
+
+.linkinicio{
+    text-decoration-line: none;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    color: white;
+    border-style: none;
+    
+
+
+}
+
+.linkinicio:hover{
+    color: black;
+}
+
+.vaciar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    border: 0;
+    background-color:darksalmon;
+    width: 150px;
+    color: white;
+    text-decoration-line: none;
+    text-decoration: none;
+    margin-left: 20px;
+   
+   
+}
+.vaciar:hover{
+    color: black;
+}
+
+.div-totales{
+    display: flex;
+    flex-direction: column;
+}
+
+.cantidadtotal{
+    font-family: 'Caveat';
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+    align-content:center;
+    justify-items: left;
+    margin-left: 200%;
+    width: 100%;
+}
+
+.preciototal{
+    display: flex;
+    font-family: 'Caveat';
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+    align-content:center;
+    justify-items: left;
+    margin-left: 200%;
+    width: 100%;
+    
+    
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    border: 0;
+    background-color: darksalmon;
+    width: 150px;
+    color: white;
+    text-decoration-line: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.comprar:hover{
+    color: black;
+}
+
+.detalle{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: bold;
+    border: 0;
+    background-color: darksalmon;
+    width: 150px;
+    color: white;
+    text-decoration-line: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.detalle:hover{
+    color: black;
+}
+
+.div-id{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.id{
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    /*text-shadow: 1px 1px 2px rgb(55, 0, 254), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);*/
+    justify-content: flex-start;
+    align-content:flex-start;
+    justify-items:flex-start;
+    margin-left: 30%;
+    width: 100%;
+}
